@@ -119,6 +119,5 @@ function copiar(cor){
   hide.select();
   document.execCommand('copy');
   hide.blur();
-  
-  alert(hide.value);
+  alert("copiado");
 }
