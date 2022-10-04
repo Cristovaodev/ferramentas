@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/pass.css">
+  <title>PassGenerator</title>
+</head>
+<body >
+	
+	<section>
+	<h1 id="titulo" class="titulo">Pass-Generator</h1>
+	<select name="tipoDeSenha" class="tipoDeSenha" id="tipoDeSenha">
+	  <option value="alfanumerico">Alfanumérico</option>
+	  <option value="alfabeticom" >Alfabético(minúsc.)</option>
+	  <option value="alfabeticoM" >Alfabético(maiúsc.)</option>
+	  <option value="numerico" >Numérico</option>
+	  <option value="simbolico" >Símbolos</option>
+	</select>
+	<br />
+	
+	<input type="range" name="medidor" class="medidor" id="medidor" min="6" max="24" oninput="actualizar()"/>
+	<input type="text" name="tamanho" class="tamanho" id="tamanho" value="15" onfocus="blur();" />
+	<br />
+	
+	<input type="text" name="visor" class="visor" id="visor" onfocus="blur();" placeholder="Senha gerada"/>
+	<br />
+	
+	<div>
+	<button id="gerar" type="button" class="gerar" onclick="terminar();">Gerar senha</button>
+	<button id="historico" type="button" class="historico" onclick="copiar();" >Copiar</button>
+	</div>
+	
+	</section>
+	
+	<script src="js/pass.js" defer ></script>
+</body>
+</html>

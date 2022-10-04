@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "galada";
+}
+
+body {
+  padding-top: 0px;
+  display: flex column;
+  background-color: lightblue;
+}
+
+header {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  background-color: #222;
+  border: 1px solid #222;
+  padding-bottom: 15px;
+}
+
+h1 {
+  margin: 15px 0px 0px 20px;
+  background-color: #222;
+  color: white;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {
+  width: 250px;
+  height: 350px;
+  background-color: rgb(033,219,182);
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+.img {
+  width: 180px;
+}
+
+button {
+  width: 170px;
+  height: 40px;
+  background-color: lightblue;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.rede {
+  width: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.gmail {
+  width: 35px;
+  height: 43px;
+  margin-bottom: -4px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: black;
+  border-style: solid;
+}
+
+span {
+  position: relative;
+  bottom: 20px;
+}
+
+
+@media (min-width: 800px) {
+  article {
+    display: flex column;
+    justify-content: space-around;
+  }
+
+  h1 {
+    margin: 25px 0px 0px 130px;
+  }
+}

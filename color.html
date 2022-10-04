@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/color.css">
+  <script src="js/color.js"></script>
+  <title>Color Generator</title>
+</head>
+<body onload="gerarCores();">
+	<div id="bloco_um">
+	  <input class="cores aleatorias" type="text" id="cor_um"/><span onclick="copiar('um');">❐</span>
+	</div>
+	<div id="bloco_dois">
+	  <input class="cores aleatorias" type="texto" id="cor_dois" /><span onclick="copiar('dois');">❐</span>
+	</div>
+	<div id="bloco_tres">
+	  <input class="cores aleatorias" type="texto" id="cor_tres" /><span onclick="copiar('tres');">❐</span>
+	</div>
+	<div id="bloco_quatro">
+	  <input class="cores aleatorias" type="texto" id="cor_quatro" /><span onclick="copiar('quatro');">❐</span>
+	</div>
+	<div id="bloco_cinco">
+	  <input class="cores aleatorias" type="texto" id="cor_cinco" /><span onclick="copiar('cinco');">❐</span>
+	</div>
+	<div id="bloco_seis">
+	  <input class="cores aleatorias" type="texto" id="cor_seis" /><span id="copiar" onclick="copiar('seis')">❐</span>
+	</div>
+	
+	<input type="text" name="hide" id="hide" />
+	<button id="botao_gerador" onclick="gerarCores();" >Gerar Cores</button>
+	
+</body>
+</html>
