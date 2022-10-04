@@ -60,11 +60,17 @@ h2 {
   width: 180px;
 }
 
+p{
+  margin: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
 button {
   width: 170px;
   height: 40px;
   background-color: lightblue;
-  font-size: 15px;
+  font-size: 15.5px;
   border: 1px solid black;
   border-radius: 10px;
 }
